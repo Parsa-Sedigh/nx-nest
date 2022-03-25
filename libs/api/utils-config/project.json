@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/api/utils-config",
+  "sourceRoot": "libs/api/utils-config/src",
+  "prefix": "nx-nest",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/api/utils-config"],
+      "options": {
+        "jestConfig": "libs/api/utils-config/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/api/utils-config/src/**/*.ts",
+          "libs/api/utils-config/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

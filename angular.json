@@ -2,8 +2,11 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
-    "api-interfaces": "libs/api-interfaces",
-    "app": "apps/app",
-    "app-e2e": "apps/app-e2e"
+    "api-data-access-article": "libs/api/data-access-article",
+    "api-feature-article": "libs/api/feature-article",
+    "api-feature-config": "libs/api/feature-config",
+    "api-utils-config": "libs/api/utils-config",
+    "app-e2e": "apps/app-e2e",
+    "post": "apps/post"
   }
 }

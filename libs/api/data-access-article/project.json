@@ -1,0 +1,22 @@
+{
+  "root": "libs/api/data-access-article",
+  "sourceRoot": "libs/api/data-access-article/src",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/api/data-access-article/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/api/data-access-article"],
+      "options": {
+        "jestConfig": "libs/api/data-access-article/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

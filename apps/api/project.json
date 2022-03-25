@@ -32,6 +32,13 @@
         "buildTarget": "api:build"
       }
     },
+    "serve-all": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "parallel": true,
+        "commands": ["nx serve api", "nx serve post"]
+      }
+    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],

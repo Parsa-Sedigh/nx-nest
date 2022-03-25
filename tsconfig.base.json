@@ -15,7 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-nest/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@nx-nest/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@nx-nest/api/data-access-article": [
+        "libs/api/data-access-article/src/index.ts"
+      ],
+      "@nx-nest/api/feature-article": ["libs/api/feature-article/src/index.ts"],
+      "@nx-nest/api/feature-config": ["libs/api/feature-config/src/index.ts"],
+      "@nx-nest/api/utils-config": ["libs/api/utils-config/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
