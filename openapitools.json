@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/@openapitools",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "5.2.0"
+  }
+}

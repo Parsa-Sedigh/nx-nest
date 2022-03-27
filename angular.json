@@ -3,10 +3,12 @@
   "projects": {
     "api": "apps/api",
     "api-data-access-article": "libs/api/data-access-article",
+    "api-data-access-dtos": "libs/api/data-access-dtos",
     "api-feature-article": "libs/api/feature-article",
     "api-feature-config": "libs/api/feature-config",
     "api-utils-config": "libs/api/utils-config",
     "app-e2e": "apps/app-e2e",
+    "article-data-access-api": "libs/article/data-access-api",
     "post": "apps/post"
   }
 }
